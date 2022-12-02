@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2497/2497913.png" type="image/x-icon" />
+	<title>Michelangelo Pizzaria | Cardápio</title>
+</head>
+
+<body>
+	<header>
+		<div class="logo-container">
+			<img src="https://cdn-icons-png.flaticon.com/512/2497/2497913.png" alt="pizza logo" class="logo" />
+			<h1 class="logo-title">Michelangelo Pizzaria | Cardápio</h1>
+		</div>
+		<span onclick="toggleMenu()" id="burguer-btn">
+			<i class="fa-solid fa-bars"></i>
+		</span>
+		<nav id="menu">
+			<ul id="menu-items">
+				<li>
+					<a href="/index.html"><i class="fa-solid fa-house"></i>Início</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-solid fa-motorcycle"></i>Delivery</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-solid fa-utensils"></i>Reserva</a>
+				</li>
+				<li>
+					<button id="cart-btn" class="cart btn">
+						<i class="fa-solid fa-shopping-cart"></i>Carrinho
+					</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="bar-container">
+		<div class="bar"></div>
+	</div>
+
+	<main>
+		<section id="pizzas">
+			<h1 class="title brown">Pizzas</h1>
+			<div class="grid-container">
+				<div class="card">
+					<img src="https://thumbs.dreamstime.com/b/pepperoni-pizza-chilli-dip-parchment-paper-94940296.jpg" alt=""
+						class="card-img" />
+					<p class="card-name">Pepperoni</p>
+					<p class="card-price">R$ 30,00</p>
+				</div>
+				<div class="card">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRabyKANNKPy07RcRGU8maWaoFuC837lpWt4w&usqp=CAU"
+						alt="" class="card-img" />
+					<p class="card-name">Quatro queijos</p>
+					<p class="card-price">R$ 35,00</p>
+				</div>
+				<div class="card">
+					<img
+						src="https://thumbs.dreamstime.com/b/portuguese-pizza-onion-peppers-pepperoni-egg-olive-wooden-background-183789635.jpg"
+						alt="" class="card-img" />
+					<p class="card-name">Portuguesa</p>
+					<p class="card-price">R$ 38,00</p>
+				</div>
+				<div class="card">
+					<img
+						src="https://media.istockphoto.com/id/479486707/photo/pizza.jpg?s=612x612&w=0&k=20&c=DMbXN0IJ2ymOyaXhfJxSKnVS0VqYa9kMbkiLDPbbjV8="
+						alt="" class="card-img" />
+					<p class="card-name">Americana</p>
+					<p class="card-price">R$ 40,00</p>
+				</div>
+				<div class="card">
+					<img
+						src="https://media.istockphoto.com/id/1074761818/photo/overhead-pizza-carbonara-on-rustic-wooden-table.jpg?s=612x612&w=0&k=20&c=NnuTAx7NpO3MB9_-aGAm07Ork7heA-g_jXTZfC-Hfok="
+						alt="" class="card-img" />
+					<p class="card-name">Bacon</p>
+					<p class="card-price">R$ 35,00</p>
+				</div>
+				<div class="card">
+					<img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-baiana-0.jpg" alt=""
+						class="card-img" />
+					<p class="card-name">Baiana</p>
+					<p class="card-price">R$ 35,00</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="bebidas">
+			<h1 class="title">Bebidas</h1>
+			<div class="grid-container">
+				<div class="card">
+					<img class="card-img"
+						src="https://images-americanas.b2w.io/produtos/4575308145/imagens/mini-lata-de-coca-cola-sabor-tradicional-220ml-qualidade/4575308145_1_large.jpg"
+						alt="coca-cola" />
+					<p class="card-name">Coca-Cola (220ml)</p>
+					<p class="card-price">R$5,00</p>
+				</div>
+				<div class="card">
+					<img class="card-img" src="https://majoricario.com.br/site/wp-content/uploads/2021/02/Guarana.png"
+						alt="Guaraná Antarctica" />
+					<p class="card-name">Guaraná Antarctica (350ml)</p>
+					<p class="card-price">R$7,00</p>
+				</div>
+				<div class="card">
+					<img class="card-img"
+						src="https://hiperideal.vteximg.com.br/arquivos/ids/197321-1000-1000/557404.jpg?v=637828764084130000"
+						alt="coca-cola" />
+					<p class="card-name">Sprite (350ml)</p>
+					<p class="card-price">R$6,50</p>
+				</div>
+				<div class="card">
+					<img class="card-img vinho"
+						src="https://revista.sociedadedamesa.com.br/wp-content/uploads/2020/02/6559628_1GG.jpg"
+						alt="Taça de vinho" />
+
+					<p class="card-name">Vinho Chandon (Garrafa)</p>
+					<p class="card-price">R$79,00</p>
+				</div>
+				<div class="card">
+					<img class="card-img vodka"
+						src="https://superadega.vteximg.com.br/arquivos/ids/170951-1000-1000/Vodka-Smirnoff-Red-1L.png?v=637763784110700000"
+						alt="Vodka" />
+					<p class="card-name">Vodka Smirnoff</p>
+					<p class="card-price">R$39,00</p>
+				</div>
+				<div class="card">
+					<img class="card-img"
+						src="https://santaluzia.vteximg.com.br/arquivos/ids/963474/1156454.jpg?v=637384874251670000"
+						alt="coca-cola" />
+					<p class="card-name">Heineken</p>
+					<p class="card-price">R$6,00</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="endereco">
+			<i class="fa-solid fa-location-dot"></i>
+			<p>
+				Rua Antônio Simões 1898,<br />
+				Recife - Pernambuco
+			</p>
+		</div>
+		<div class="telefone">
+			<i class="fa-solid fa-phone"></i>
+			<p>(81) 2683-5728</p>
+		</div>
+		<div class="socials">
+			<i class="fa-brands fa-instagram"></i>
+			<a href="https://www.instagram.com" target="_blank">@michelangelo.pizzaria</a>
+		</div>
+	</footer>
+	<script src="/script/main.js"></script>
+	<script src="https://kit.fontawesome.com/a14430386d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
